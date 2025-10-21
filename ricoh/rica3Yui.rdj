@@ -1,0 +1,13 @@
+{
+	"ini_list"	: 
+	[
+		{
+			"PrinterModelName"	: ["IM 350","IM 430"],
+			"LoadDll"			: "MFRicr64.dll",
+			"ResDll"			: "RD03Yd64.dll",
+			"Version"			: "1.1.20.0"
+			
+		}
+	]
+}
+

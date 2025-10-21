@@ -1,0 +1,193 @@
+;------------------------------------------------------------
+; Copyright (c) 2007-2020 RICOH COMPANY, LTD
+; All Rights Reserved
+; Printer Driver Setup Information File
+;------------------------------------------------------------
+
+[Version]
+Signature   = "$Windows NT$"
+Provider    = %Ricoh%
+ClassGUID   = {4D36E979-E325-11CE-BFC1-08002BE10318}
+Class       = Printer
+DriverVer  = 04/02/2020,1.2.0.0
+CatalogFile = rica3Y.cat
+
+[Manufacturer]
+%Gestetner%=Gestetner,NTamd64
+%LANIER%=LANIER,NTamd64
+%NRG%=NRG,NTamd64
+%Ricoh%=Ricoh,NTamd64
+%SAVIN%=SAVIN,NTamd64
+
+
+;WindowsXP(amd64)
+[Gestetner.NTamd64]
+"Gestetner IM 350 PCL 6"=Gestetner_IM_350_64.dat,USBPRINT\GestetnerIM_3506B7B,LPTENUM\GestetnerIM_3506B7B,GestetnerIM_3506B7B
+"Gestetner IM 430 PCL 6"=Gestetner_IM_430_64.dat,USBPRINT\GestetnerIM_4300AC9,LPTENUM\GestetnerIM_4300AC9,GestetnerIM_4300AC9,GestetnerIM_430_AC9
+
+[LANIER.NTamd64]
+"LANIER IM 350 PCL 6"=LANIER_IM_350_64.dat,USBPRINT\LANIERIM_3505402,LPTENUM\LANIERIM_3505402,LANIERIM_3505402
+"LANIER IM 430 PCL 6"=LANIER_IM_430_64.dat,USBPRINT\LANIERIM_43035B2,LPTENUM\LANIERIM_43035B2,LANIERIM_43035B2
+
+[NRG.NTamd64]
+"NRG IM 350 PCL 6"=NRG_IM_350_64.dat,USBPRINT\NRGIM_3505E79,LPTENUM\NRGIM_3505E79,NRGIM_3505E79
+"NRG IM 430 PCL 6"=NRG_IM_430_64.dat,USBPRINT\NRGIM_4303FCB,LPTENUM\NRGIM_4303FCB,NRGIM_4303FCB
+
+[Ricoh.NTamd64]
+"RICOH IM 350 PCL 6"=RICOH_IM_350_64.dat,USBPRINT\RICOHIM_35079C5,LPTENUM\RICOHIM_35079C5,RICOHIM_35079C5
+"RICOH IM 430 PCL 6"=RICOH_IM_430_64.dat,USBPRINT\RICOHIM_4301875,LPTENUM\RICOHIM_4301875,RICOHIM_4301875
+
+[SAVIN.NTamd64]
+"SAVIN IM 350 PCL 6"=SAVIN_IM_350_64.dat,USBPRINT\SAVINIM_350B557,LPTENUM\SAVINIM_350B557,SAVINIM_350B557
+"SAVIN IM 430 PCL 6"=SAVIN_IM_430_64.dat,USBPRINT\SAVINIM_430D4E5,LPTENUM\SAVINIM_430D4E5,SAVINIM_430D4E5
+
+
+[Gestetner_IM_350_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica3Ycd.psz
+LanguageMonitor = rica3Ylm,rica3Ylm.dll
+FeatureScore		= 0x80
+
+[Gestetner_IM_430_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica3Ycd.psz
+LanguageMonitor = rica3Ylm,rica3Ylm.dll
+FeatureScore		= 0x80
+
+[LANIER_IM_350_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica3Ycd.psz
+LanguageMonitor = rica3Ylm,rica3Ylm.dll
+FeatureScore		= 0x80
+
+[LANIER_IM_430_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica3Ycd.psz
+LanguageMonitor = rica3Ylm,rica3Ylm.dll
+FeatureScore		= 0x80
+
+[NRG_IM_350_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica3Ycd.psz
+LanguageMonitor = rica3Ylm,rica3Ylm.dll
+FeatureScore		= 0x80
+
+[NRG_IM_430_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica3Ycd.psz
+LanguageMonitor = rica3Ylm,rica3Ylm.dll
+FeatureScore		= 0x80
+
+[RICOH_IM_350_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica3Ycd.psz
+LanguageMonitor = rica3Ylm,rica3Ylm.dll
+FeatureScore		= 0x80
+
+[RICOH_IM_430_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica3Ycd.psz
+LanguageMonitor = rica3Ylm,rica3Ylm.dll
+FeatureScore		= 0x80
+
+[SAVIN_IM_350_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica3Ycd.psz
+LanguageMonitor = rica3Ylm,rica3Ylm.dll
+FeatureScore		= 0x80
+
+[SAVIN_IM_430_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica3Ycd.psz
+LanguageMonitor = rica3Ylm,rica3Ylm.dll
+FeatureScore		= 0x80
+
+
+[RPD_FILES]
+rica3Yui.dll,rica3Yui.dl_
+rica3Yui.irj
+rica3Yui.rdj
+rica3Yui.rcf
+rica3Yug.dll,rica3Yug.dl_
+rica3Yug.miz
+rica3Yur.dll,rica3Yur.dl_
+rica3Ygr.dll,rica3Ygr.dl_
+rica3Ygl.dll,rica3Ygl.dl_
+rica3Yci.dll,rica3Yci.dl_
+rica3Ycd.dll,rica3Ycd.dl_
+rica3Ycd.psz
+rica3Ycf.cfz
+rica3Ycl.ini
+rica3Ych.chm
+rica3Ycz.dlz
+rica3Ycj.dll,rica3Ycj.dl_
+rica3Yct.dll,rica3Yct.dl_
+rica3Ycb.dll,rica3Ycb.dl_
+rica3Ytl.exe,rica3Ytl.ex_
+
+[RPD_COMMON_SYS32]
+rica3Ylm.dll,rica3Ylm.dl_,,0x00000020
+
+[RPD_COMMON]
+ricdb64.dll,ricdb64.dl_,,0x00000020
+mfricr64.dll,mfricr64.dl_,,0x00000020
+RD03Yd64.dll,RD03Yd64.dl_,,0x00000020
+
+[RPD_DATA]
+ConfigFile		= rica3Yui.dll
+DriverFile		= rica3Ygr.dll
+HelpFile		= rica3Ych.chm
+
+[DestinationDirs]
+DefaultDestDir		= 66000
+RPD_COMMON_SYS32	 	= 66002
+
+[SourceDisksNames.amd64]
+1 = %DSK%,,,
+
+[PrinterPackageInstallation.amd64]
+PackageAware			=TRUE
+
+[SourceDisksFiles.amd64]
+rica3Yui.dl_		= 1
+rica3Yui.irj		= 1
+rica3Yui.rdj		= 1
+rica3Yui.rcf		= 1
+rica3Yug.dl_		= 1
+rica3Yug.miz		= 1
+rica3Yur.dl_		= 1
+rica3Ygr.dl_		= 1
+rica3Ygl.dl_		= 1
+rica3Yci.dl_		= 1
+rica3Ycd.dl_		= 1
+rica3Ycd.psz		= 1
+rica3Ycf.cfz		= 1
+rica3Ycl.ini		= 1
+rica3Ych.chm		= 1
+rica3Ycz.dlz		= 1
+rica3Ycj.dl_		= 1
+rica3Yct.dl_		= 1
+rica3Ycb.dl_		= 1
+rica3Ylm.dl_		= 1
+ricdb64.dl_			= 1
+mfricr64.dl_		= 1
+rica3Ytl.ex_              = 1
+RD03Yd64.dl_		= 1
+
+[Strings]
+Ricoh="Ricoh"
+Gestetner="Gestetner"
+LANIER="LANIER"
+NRG="NRG"
+SAVIN="SAVIN"
+DSK= "PCL6 Printer Driver Disk1"

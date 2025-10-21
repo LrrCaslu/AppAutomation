@@ -1,0 +1,105 @@
+{
+
+	"common" :
+	{
+
+		"root" :
+		{
+			"SoftwareID"				: [ "0000000700001107",		"REG_SZ" ],
+			"Logging"								: [ "1",					"REG_DWORD" ]
+		},
+
+		"common_scope" :
+		{
+			"DriverProductVersion"		: [ "1.2.0.0",		"REG_SZ" ],
+			"Date"				: [ "04/02/2020",	"REG_SZ" ],
+			"PrinterModelName"		: [ "IM 350",	"REG_SZ" ],
+			"PDL"						: [ "PCLXL",				"REG_SZ" ]
+		},
+
+		"ui_scope" :
+		{
+		},
+
+		"gr_scope" :
+		{
+		},
+
+		"capsdb_scope" :
+		{
+		}
+
+	},
+
+       "Gestetner IM 350 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM 350", "REG_SZ" ]
+               }
+       },
+       "Gestetner IM 430 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM 430", "REG_SZ" ]
+               }
+       },
+"LANIER IM 350 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM 350", "REG_SZ" ]
+               }
+       },
+       "LANIER IM 430 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM 430", "REG_SZ" ]
+               }
+       },
+"NRG IM 350 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM 350", "REG_SZ" ]
+               }
+       },
+       "NRG IM 430 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM 430", "REG_SZ" ]
+               }
+       },
+"RICOH IM 350 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM 350", "REG_SZ" ]
+               }
+       },
+       "RICOH IM 430 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM 430", "REG_SZ" ]
+               }
+       },
+"SAVIN IM 350 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM 350", "REG_SZ" ]
+               }
+       },
+       "SAVIN IM 430 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM 430", "REG_SZ" ]
+               }
+       }
+ 
+}
