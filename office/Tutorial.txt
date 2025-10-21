@@ -1,0 +1,5 @@
+ABRA O CMD
+
+Passo 1: CD\
+Passo 2: CD c:\office (ou local onde você salvou)
+Passo 3: Setup.exe/configure Configuração.xml
