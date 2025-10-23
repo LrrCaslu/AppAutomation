@@ -1,0 +1,30 @@
+name: AppAutomation
+
+# Esta linha configura quando o fluxo de trabalho será executado.
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4 # Este passo obtém o código do seu repositório
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x' # Especifique a versão do Python
+      - name: Install dependencies
+        run: |
+          # Instale quaisquer dependências necessárias, por exemplo, de um requirements.txt
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run script
+        run: |
+          # Execute seu script Python
+          python main.py
